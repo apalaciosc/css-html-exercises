@@ -29,19 +29,50 @@ body {
 
 
 /* Exercise #2 */
-.ex-2 { }
+.ex-2 ul{
+  display:  flex;
+  list-style: none;
+}
+.ex2-items{
+  margin: 0 10px;
+}
 
 /* Exercise #3 */
-.ex-3 { }
+.ex-3 li:nth-child(2) {
+  color: red;
+  list-style: none;
+  margin: 10px;
+ }
 
 
 /* Exercise #4 */
-.ex-4 {  }
+.ex-4 .content{ 
+  width: 100%;
+  display: flex;
+ }
+ .col-1, .col-3{
+   width: 20%;
+   height: 30px;
+   background: gray;
+ }
+ .col-2{
+   width: 80%;
+   height: 30px;
+   background: #000;
+ }
 
 /* Exercise #5 */
-.ex-5 {
-  
+.ex-5 .circle {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  background:linear-gradient(#000,#fff);
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
 }
 
 /* Exercise #6 */
-.ex-6 {  }
+.ex-6 li:nth-child(3n+1) {
+  color: red;
+  }
